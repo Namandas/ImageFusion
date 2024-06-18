@@ -63,6 +63,26 @@ To set up the ImageFusion application locally for development purposes, follow t
    npm i
 4. **Set up environment variables:**
    ```bash
+    #NEXT
+    NEXT_PUBLIC_SERVER_URL=
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL = /sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL = /sign-up
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL = / 
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL = /   
+    #CLERK
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+    WEBHOOK_SECRET=
+    #MONGODB_
+    MONGODB_URL=
+   #CLOUDINARY
+   NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+   CLOUDINARY_API_KEY=
+   CLOUDINARY_API_SECRET=
+   #STRIPE
+   STRIPE_SECRET_KEY=
+   STRIPE_WEBHOOK_SECRET=
+   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 
 5. **Run the application:**
    ```bash
