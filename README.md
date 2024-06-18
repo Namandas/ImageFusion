@@ -1,5 +1,7 @@
 # ImageFusion: SaaS Image Manipulation Tool
 
+[Live Demo](https://imagefusion-mocha.vercel.app)
+
 Imagify is a powerful SaaS application designed to provide a range of image manipulation features using advanced AI algorithms. It leverages Cloudinary for image processing, Clerk for account management, and Stripe for handling payment transactions. The application is built with Next.js, MongoDB, and TypeScript, ensuring a robust and scalable platform.
 
 ## Features
